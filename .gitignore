@@ -1,3 +1,7 @@
+# chaff
+**/*.txt
+**/*.html
+
 # History files
 .Rhistory
 .Rapp.history
