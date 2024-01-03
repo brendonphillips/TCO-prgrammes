@@ -1,3 +1,5 @@
 # Tutorial on using the MuseScore site
 
-*preamble, screenshots and explanations*
+*back to this term's information [here](README.md)*
+
+* preamble, screenshots and explanations *
