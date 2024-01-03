@@ -19,7 +19,7 @@ Happy New Year, TCO! The theme for the term is "Dance". *other notes*
     * [*MuseScore aids*](#berlioz-musescore)
 1. [**Other info to be added later**](#other-music)
     * [*Other info*](#other-info)
-1. [**Tutorial on using the MuseScore site**](#musescore-tutorial)
+1. [**Tutorial on using the MuseScore site**](musescore-tutorial.md)
 
 ### Playlists: <a name="playlists"></a>
 Have a listen to some performances of the Winter 2024 lineup:
@@ -83,6 +83,3 @@ Here are scores (with only the String + Harp parts) that can be used as a practi
 * [March to the Scaffold - play-along (dead link)]()
 
 *Note: the last staff in all scores is there to fill in the melodies from other instrument parts that aren't also covered by the string section. It's a cue, but audio; I've omitted the other instrument parts from the complete score, since I haven't yet figured out how to make large scores legible in the online tool without constantly page adjustment.*
-
-## Tutorial on using the MuseScore Site <a name="musescore-tutorial"></a>
-*to be filled in with screenshots and an explanation later in a separate readme*
