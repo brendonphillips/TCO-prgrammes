@@ -78,7 +78,7 @@ Nick has kindly demanded that you copy these bar numbers/rehearsal letters into 
 | **Z**                |                             | 353                                       |
 
 ### MuseScore demo for Strings/Harp: <a name="berlioz-musescore"></a>
-Here are scores (with only the String + Harp parts) that can be used as a practice aid. The tempi, instruments included in the playback, etc. can all be adjusted, as shown in the tutorial section [here (will be a separate file after I fill it in)](#musescore-tutorial).
+Here are scores (with only the String + Harp parts) that can be used as a practice aid. The tempi, instruments included in the playback, etc. can all be adjusted, as shown in the tutorial section [here](musescore-tutorial.md).
 * [A Ball - play-along](https://musescore.com/user/33269220/scores/13743490/s/mR2ZGy?share=copy_link)
 * [March to the Scaffold - play-along (dead link)]()
 
