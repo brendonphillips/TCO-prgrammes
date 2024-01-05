@@ -2,8 +2,6 @@
 
 Happy New Year, TCO! The theme for the term is "Dance".
 
-I'll add links to the parts and scores after I sort out the necessary changes to the Google Driver permissions.
-
 ## Contents:
 1. [**Playlists** - YouTube and Spotify](#playlists)
 1. [**Tutorial on using the MuseScore site as a practice aid** (for Strings)](musescore-tutorial.md)
@@ -37,11 +35,11 @@ I'll add links to the parts and scores after I sort out the necessary changes to
 ### Playlists: <a name="playlists"></a>
 Have a listen to some performances of the Winter 2024 lineup:
 * **YouTube**: [YT Playlist: videos with Scores](https://www.youtube.com/watch?v=0SgJrqT4EUc&list=PLofraTZ-oauezKCJ2Ns2PntDHz2pm5eNT&pp=gAQBiAQB). I've made an effort to find videos showing the scores, but other performances are great.
-* **Spotify**: [Spotify: Nice Recordings](https://open.spotify.com/playlist/1BO6DD0onMDASXDBZ6j071?si=ac4ff15f6be14fa8). *(Interesting performances, curated by Eric Diller. Thanks, Eric!)* 
+* **Spotify**: [Eric's Spotify playlist](https://open.spotify.com/playlist/1BO6DD0onMDASXDBZ6j071?si=ac4ff15f6be14fa8). *(Great performances, curated by Eric Diller. Thanks, Eric!)* 
 
 ## Berlioz - Selections from Symphonie Fantastique <a name="berlioz"></a> <a name="berlioz-notes"></a>
 We've settled on the two movements
-* Movement 2: "Un Ball" *(A Ball)*,
+* Movement 2: "Un Bal" *(A Ball)*,
 * Movement 4: "Marche au Supplice" *(March to the Scaffold)*.
 
 Here are some programme notes explaining the story behind the piece and why drugs are cool:
@@ -56,7 +54,7 @@ If there is no part for your instrument, you are *tacet* for the entire selectio
 ### Landmarks: <a name="berlioz-landmarks"></a>
 Please copy the following into your parts:
 
-| **Rehearsal Letter** | **2. Un Ball (bar number)** | **4. March to the Scaffold (bar number)** |
+| **Rehearsal Letter** | **2. A Ball (bar number)** | **4. March to the Scaffold (bar number)** |
 |----------------------|-----------------------------|-------------------------------------------|
 | **A**                | 9                           | 16                                        |
 | **B**                | 17                          | 36                                        |
@@ -184,11 +182,11 @@ For Dance #6, please copy the following:
 |----------------|------------------------------------|
 | 43             | repeat sign; key change to G major |
 | 51             |                                    |
-| 75             | ff                                 |
-| 87             | ff                                 |
-| 95             | p (Viola passage)                  |
+| 75             | *ff*                               |
+| 87             | *ff*                               |
+| 95             | *p* (Viola passage)                |
 | 110            | staccato                           |
-| 119            | kry change to D major              |
+| 119            | key change to D major              |
 | 153            | sequence                           |
 | 167            |                                    |
 | 202            | Coda                               |
