@@ -135,7 +135,7 @@ In the second upload above (clearer parts), both bar numbers and rehearsal lette
 * The Oboe 2/English Horn part has been transposed to C and typeset for Oboe.
 
 ### Score and Parts <a name="loewe-parts"></a>
-Please refer to the email "Repertoire for the 2024 Winter Term" sent on 14 December 2024. I cannot post that link here, since that will make the parts available to everyone accessing this Readme. I'll sort the Google Drive permissions out differently next term.
+Please refer to the email "Repertoire for the 2024 Winter Term" sent on 14 December 2023. I cannot post that link here, since that will make the parts available to everyone accessing this Readme. I'll sort the Google Drive permissions out differently next term.
 
 ### Landmarks <a name="loewe-marks"></a>
 No more necessary; everything is in the parts.
@@ -144,7 +144,7 @@ No more necessary; everything is in the parts.
 We've chosen Dance 1 and Waltz 2 so the strings can have a rest (not really).
 
 ### Score and Parts <a name="shosta-parts"></a>
-Please refer to the email "Repertoire for the 2024 Winter Term" sent on 14 December 2024. I cannot post that link here, since that will make the parts available to everyone accessing this Readme. I'll sort the Google Drive permissions out differently next term.
+Please refer to the email "Repertoire for the 2024 Winter Term" sent on 14 December 2023. I cannot post that link here, since that will make the parts available to everyone accessing this Readme. I'll sort the Google Drive permissions out differently next term.
 
 ### Landmarks <a name="shosta-marks">
 No more necessary; everything is in the parts.
