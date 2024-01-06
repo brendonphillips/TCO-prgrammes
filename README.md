@@ -85,7 +85,7 @@ Please copy the following into your parts:
 
 ### MuseScore demo <a name="berlioz-musescore"></a>
 Here are scores (with only the String + Harp parts) that can be used as a practice aid. The tempi, instruments included in the playback, etc. can all be adjusted, as shown in the tutorial section [here (not posted yet)](musescore-tutorial.md).
-* [MuseScore: A Ball - String+Harp (Bizet)](https://musescore.com/user/33269220/scores/13743490/s/mR2ZGy?share=copy_link)
+* [MuseScore: A Ball - String+Harp (Berlioz)](https://musescore.com/user/33269220/scores/13743490/s/mR2ZGy?share=copy_link)
 * March to the Scaffold - (no link yet).
 
 *Note: the last staff in all scores is there to fill in the melodies from other instrument parts that aren't also covered by the string section. It's a cue, but audio; I've omitted the other instrument parts from the complete score, since I haven't yet figured out how to make large scores legible in the online tool without constantly page adjustment.*
