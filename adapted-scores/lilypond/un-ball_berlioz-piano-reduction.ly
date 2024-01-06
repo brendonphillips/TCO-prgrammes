@@ -2,7 +2,7 @@
 % \include "english.ly"
 
 \header {
-    title = "Un Bal - Symphonie Fantastique"
+    title = "(ABANDONED) Un Bal - Symphonie Fantastique"
     composer = "Hector Berlioz"
     opus = "H  48-II (Op. 14)"
     tagline = "combination of the Harp 1 & 2 parts - for the Toronto Community Orchestra"
