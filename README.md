@@ -55,33 +55,33 @@ If there is no part for your instrument, you are *tacet* for the entire selectio
 Please copy the following into your parts:
 
 | **Rehearsal Letter** | **2. A Ball (bar number)** | **4. March to the Scaffold (bar number)** |
-|----------------------|-----------------------------|-------------------------------------------|
-| **A**                | 9                           | 16                                        |
-| **B**                | 17                          | 36                                        |
-| **C**                | 32                          | 54                                        |
-| **D**                | 41                          | 68                                        |
-| **E**                | 49                          | 78                                        |
-| **F**                | 62                          | 88                                        |
-| **G**                | 70                          | 94                                        |
-| **H**                | 78                          | 106                                       |
-| **I**                | 89                          | 116                                       |
-| **J**                | 97                          | 127                                       |
-| **K**                | 105                         | 143                                       |
-| **L**                | 118                         |                                           |
-| **M**                | 123                         | 174                                       |
-| **N**                | 130                         | 191                                       |
-| **O**                | 140                         | 205                                       |
-| **P**                | 152                         | 215                                       |
-| **Q**                | 160                         | 222                                       |
-| **R**                | 165                         | 233                                       |
-| **S**                | 171                         | 245                                       |
-| **T**                |                             | 256                                       |
-| **U**                |                             | 279                                       |
-| **V**                |                             | 288                                       |
-| **W**                |                             | 314                                       |
-| **X**                |                             | 320                                       |
-| **Y**                |                             | 338                                       |
-| **Z**                |                             | 353                                       |
+|----------------------|----------------------------|-------------------------------------------|
+| **A**                | 16                         | 9                                         |
+| **B**                | 36                         | 17                                        |
+| **C**                | 54                         | 32                                        |
+| **D**                | 68                         | 41                                        |
+| **E**                | 78                         | 49                                        |
+| **F**                | 88                         | 62                                        |
+| **G**                | 94                         | 70                                        |
+| **H**                | 106                        | 78                                        |
+| **I**                | 116                        | 89                                        |
+| **K**                | 127                        | 97                                        |
+| **L**                | 143                        | 105                                       |
+| **M**                |                            | 118                                       |
+| **N**                | 174                        | 123                                       |
+| **N**                | 191                        | 130                                       |
+| **O**                | 205                        | 140                                       |
+| **P**                | 215                        | 152                                       |
+| **Q**                | 222                        | 160                                       |
+| **R**                | 233                        | 165                                       |
+| **S**                | 245                        | 171                                       |
+| **T**                | 256                        |                                           |
+| **U**                | 279                        |                                           |
+| **V**                | 288                        |                                           |
+| **W**                | 314                        |                                           |
+| **X**                | 320                        |                                           |
+| **Y**                | 338                        |                                           |
+| **Z**                | 353                        |                                           |
 
 ### MuseScore demo <a name="berlioz-musescore"></a>
 Here are scores (with only the String + Harp parts) that can be used as a practice aid. The tempi, instruments included in the playback, etc. can all be adjusted, as shown in the tutorial section [here (not posted yet)](musescore-tutorial.md).
