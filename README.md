@@ -161,18 +161,18 @@ For Dance #2, please copy the following into your parts:
 
 | **Bar Number** | **Mark/Direction**        |
 |----------------|---------------------------|
-| 18             | Allegro Vivo              |
-| 34             |                           |
-| 54             | Tempo I                   |
-| 70             | Piu Mosso                 |
-| 86             | (violins play sixteenths) |
-| 94             | Grandioso                 |
-| 102            |                           |
+| 18             | Allegro Vivo (rehearsal **A**)|
+| 34             | rehearsal **B**           |
+| 54             | Tempo I (double bar line) |
+| 70             | Piu Mosso (rehearsal **E**)|
+| 86             | rehearsal **F** (violins play sixteenths) |
+| 94             | *grandioso*               |
+| 102            | rehearsal **G**           |
 | 110            | Meno Mosso                |
-| 114            | Quasi Andante             |
+| 114            | Quasi Andante (rehearsal **H**)|
 | 120            | Allegretto Scherzando     |
-| 136            | Piu Mosso                 |
-| 144            | Grandioso                 |
+| 136            | Piu Mosso (8 after rehearsal **I**)|
+| 144            | *grandioso, ff**          |
 | 163            | Meno Mosso                |
 | 171            | Piu Mosso                 |
 
@@ -180,16 +180,16 @@ For Dance #6, please copy the following:
 
 | **Bar Number** | **Mark/Direction**                 |
 |----------------|------------------------------------|
-| 43             | repeat sign; key change to G major |
-| 51             |                                    |
-| 75             | *ff*                               |
-| 87             | *ff*                               |
+| 43             | repeat sign; key change to G major (rehearsal **B**) |
+| 51             | *f* after repeat                   |
+| 75             | *ff* after rehearsal **C**         |
+| 87             | *ff* (rehearsal **D**)                              |
 | 95             | *p* (Viola passage)                |
 | 110            | staccato                           |
-| 119            | key change to D major              |
+| 119            | rehearsal **F**, key change to D major              |
 | 153            | sequence                           |
-| 167            |                                    |
-| 202            | Coda                               |
+| 167            | rehearsal **H**                                   |
+| 202            | Coda (rehearsal **K**)                               |
 
 ## Bizet - Habañera <a name="bizet"></a> <a name="bizet-notes"></a>
 
