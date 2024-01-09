@@ -54,34 +54,34 @@ If there is no part for your instrument, you are *tacet* for the entire selectio
 ### Landmarks: <a name="berlioz-landmarks"></a>
 Please copy the following into your parts:
 
-| **Rehearsal Letter** | **2. A Ball (bar numbers)** | **4. March to the Scaffold** |
+| **Rehearsal Letter** | **2. A Ball (bar numbers)** | **4. March to the Scaffold (bar numbers)** |
 |----------------------|-----------------------------|------------------------------|
-| **A**                | 16                          | 9                            |
-| **B**                | 36                          | 17                           |
-| **C**                | 54                          | 32                           |
-| **D**                | 68                          | 41                           |
-| **E**                | 78                          | 49                           |
-| **F**                | 88                          | 62                           |
-| **G**                | 94                          | 70                           |
-| **H**                | 106                         | 78                           |
-| **I**                | 116                         | 89                           |
-| **J**                | 127                         | 97                           |
-| **K**                | 143                         | 105                          |
-| **L**                |                             | 118                          |
-| **M**                | 174                         | 123                          |
-| **N**                | 191                         | 130                          |
-| **O**                | 205                         | 140                          |
-| **P**                | 215                         | 152                          |
-| **Q**                | 222                         | 160                          |
-| **R**                | 233                         | 165                          |
-| **S**                | 245                         | 171                          |
-| **T**                | 256                         |                              |
-| **U**                | 279                         |                              |
-| **V**                | 288                         |                              |
-| **W**                | 314                         |                              |
-| **X**                | 320                         |                              |
-| **Y**                | 338                         |                              |
-| **Z**                | 353                         |                              |
+| **A**                | **16**                          | **9**                           |
+| **B**                | **36** (rehearsal #22)          | **17**                           |
+| **C**                | **54** (6 after Tempo primo)    | **32**                           |
+| **D**                | **68** (2 after #23)            | **41** (1 after #51)             |
+| **E**                | **78** (#24)                    | **49** (#52)                     |
+| **F**                | **88**                          | **62** (#53)                     |
+| **G**                | **94** (#25)                    | **70**                           |
+| **H**                | **106** (2 after *senza rit.*)  | **78** (double bar line)         |
+| **I**                | **116** (#26)                   | **89** (#54)                     |
+| **J**                | **127**                         | **97**                           |
+| **K**                | **143** (4th of *cresc poco a...*)| **105** (#55)                  |
+| **L**                |                                 | **118** (5 after #56)            |
+| **M**                | **174** (#28)                   | **123** (*f* after *cresc.*)     |
+| **N**                | **191** (*piano cresc.* after M)| **130** (#57)                    |
+| **O**                | **205** (2 after #29)           | **140**                          |
+| **P**                | **215** (#30)                   | **152** (#58)                    |
+| **Q**                | **222**                         | **160** (*ff* after #58)         |
+| **R**                | **233** (#31)                   | **165**                          |
+| **S**                | **245** (Tempo primo after #32) | **171** (bar after drum rolls)   |
+| **T**                | **256** (Animato after #32)     |                              |
+| **U**                | **279** (1 before #34)          |                              |
+| **V**                | **288**                         |                              |
+| **W**                | **314** (*rall. poco* after #35)|                              |
+| **X**                | **320** (Tempo primo after W)   |                              |
+| **Y**                | **338** (*animato* after #36)   |                              |
+| **Z**                | **353** (*piu vivo* after Y)    |                              |
 
 ### MuseScore demo <a name="berlioz-musescore"></a>
 Here are scores (with only the String + Harp parts) that can be used as a practice aid. The tempi, instruments included in the playback, etc. can all be adjusted, as shown in the tutorial section [here (not posted yet)](musescore-tutorial.md).
@@ -161,18 +161,18 @@ For Dance #2, please copy the following into your parts:
 
 | **Bar Number** | **Mark/Direction**        |
 |----------------|---------------------------|
-| 18             | Allegro Vivo              |
-| 34             |                           |
-| 54             | Tempo I                   |
-| 70             | Piu Mosso                 |
-| 86             | (violins play sixteenths) |
-| 94             | Grandioso                 |
-| 102            |                           |
+| 18             | Allegro Vivo (rehearsal **A**)|
+| 34             | rehearsal **B**           |
+| 54             | Tempo I (double bar line) |
+| 70             | Piu Mosso (rehearsal **E**)|
+| 86             | rehearsal **F** (violins play sixteenths) |
+| 94             | *grandioso*               |
+| 102            | rehearsal **G**           |
 | 110            | Meno Mosso                |
-| 114            | Quasi Andante             |
+| 114            | Quasi Andante (rehearsal **H**)|
 | 120            | Allegretto Scherzando     |
-| 136            | Piu Mosso                 |
-| 144            | Grandioso                 |
+| 136            | Piu Mosso (8 after rehearsal **I**)|
+| 144            | *grandioso*, *ff*          |
 | 163            | Meno Mosso                |
 | 171            | Piu Mosso                 |
 
@@ -180,16 +180,16 @@ For Dance #6, please copy the following:
 
 | **Bar Number** | **Mark/Direction**                 |
 |----------------|------------------------------------|
-| 43             | repeat sign; key change to G major |
-| 51             |                                    |
-| 75             | *ff*                               |
-| 87             | *ff*                               |
+| 43             | repeat sign; key change to G major (rehearsal **B**) |
+| 51             | *f* after repeat                   |
+| 75             | *ff* after rehearsal **C**         |
+| 87             | *ff* (rehearsal **D**)                              |
 | 95             | *p* (Viola passage)                |
 | 110            | staccato                           |
-| 119            | key change to D major              |
+| 119            | rehearsal **F**, key change to D major              |
 | 153            | sequence                           |
-| 167            |                                    |
-| 202            | Coda                               |
+| 167            | rehearsal **H**                                   |
+| 202            | Coda (rehearsal **K**)                               |
 
 ## Bizet - Habañera <a name="bizet"></a> <a name="bizet-notes"></a>
 
