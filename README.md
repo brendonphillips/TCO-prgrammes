@@ -172,7 +172,7 @@ For Dance #2, please copy the following into your parts:
 | 114            | Quasi Andante (rehearsal **H**)|
 | 120            | Allegretto Scherzando     |
 | 136            | Piu Mosso (8 after rehearsal **I**)|
-| 144            | *grandioso, ff**          |
+| 144            | *grandioso*, *ff*          |
 | 163            | Meno Mosso                |
 | 171            | Piu Mosso                 |
 
