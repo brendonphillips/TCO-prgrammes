@@ -54,7 +54,7 @@ If there is no part for your instrument, you are *tacet* for the entire selectio
 ### Landmarks: <a name="berlioz-landmarks"></a>
 Please copy the following into your parts:
 
-| **Rehearsal Letter** | **2. A Ball (bar numbers and cues)** | **4. March to the Scaffold (bar numbers and cues)** |
+| **Rehearsal Letter** | **2. A Ball (bar numbers)** | **4. March to the Scaffold (bar numbers)** |
 |----------------------|-----------------------------|------------------------------|
 | **A**                | **16**                          | **9**                           |
 | **B**                | **36** (rehearsal #22)          | **17**                           |
