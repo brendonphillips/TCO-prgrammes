@@ -2,6 +2,7 @@
 **/*.txt
 **/*.html
 **/*.pdf
+**/*.mid*
 *code-workspace
 
 # History files
