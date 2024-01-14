@@ -1,6 +1,8 @@
 # chaff
 **/*.txt
 **/*.html
+**/*.pdf
+*code-workspace
 
 # History files
 .Rhistory
