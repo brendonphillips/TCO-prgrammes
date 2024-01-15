@@ -33,9 +33,9 @@ viola_alto_clef =  \compressMMRests {
     \repeat unfold 6 {r4 f f} \repeat unfold 2 { r4 ees ees }
     \mark \default
     \repeat unfold 2 { r4 ees ees } \repeat unfold 2 { r4 f f }
-    r4 d d r ees d r ees ees r ees\p^"pizz." ees
+    r4 d d r ees d r ees ees r ees'\p^"pizz." f
     \mark \default
-    g'4 g g f f f ees r g r ees f g4 g g f f f ees r g
+    g4 g g f f f ees r g r ees f g4 g g f f f ees r g
     r4 c d ees ees ees d d d c r r r2 r4 R1*3/4*2
     \mark \default
     g2.\f^"arco"_"espr." ees2 d4 c2.~4 c4 (d) ees (c ees) g2 (aes4) g2. (f)
