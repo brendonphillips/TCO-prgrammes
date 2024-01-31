@@ -1,28 +1,20 @@
-\version "2.22.0"
-% \include "english.ly"
+% \version "2.22.0"
 
-\header {
-    title = "My Fair Lady - Selection"
-    composer = "music by Frederick Loewe"
-    opus = "transcribed for orchestra by Robert Russell Bennett"
-    tagline = "English Horn part transcribed for Oboe 2 in C - for Toronto Community Orchestra"
-}
+% \header {
+%     title = "My Fair Lady - Selection"
+%     composer = "music by Frederick Loewe"
+%     opus = "transcribed for orchestra by Robert Russell Bennett"
+%     tagline = "English Horn part transcribed for Oboe 2 in C - for Toronto Community Orchestra"
+% }
 
-\layout {
-    \context {
-        \Score
-        markFormatter = #format-mark-circle-barnumbers
-    }
-  }
+% \layout {
+%     \context {
+%         \Score
+%         markFormatter = #format-mark-circle-barnumbers
+%     }
+% }
 
-global = {
-    \key g \major
-    \time 4/4
-    \tempo Allegro
-    \accidentalStyle default
-}
-
-eng_horn_p_one =  \compressMMRests {
+oboetwo =  \compressMMRests {
     \override MultiMeasureRest.expand-limit = #2
     \time 4/4 \key g \major \tempo "Con anima"
     d4->\f \repeat unfold 6 {d4->} d8-> r  
@@ -151,40 +143,12 @@ eng_horn_p_one =  \compressMMRests {
     \numericTimeSignature \time 4/4 \tempo "Adagio"
     d2.->\ff d4-> e2-> ees-> f8\marcato bes,4.\marcato\<~2\! d8\marcato r r4 r2 % \fine
     \bar "|."
-}    
-
-\score {
-    \new Staff \with {
-        instrumentName = "Oboe 2 (C)"
-        midiInstrument = "oboe"
-        \numericTimeSignature
-    }
-    {
-        % \relative c'' {
-        %     \eng_horn_p_one
-        % }
-
-        % transposed part for Oboe
-        \transpose c f {
-            \relative c' {
-                \eng_horn_p_one
-            }
-        }
-    }
-
-    % \midi{ }
-    
 }
 
-% to repeat a section instead of typing it over and over
-% _n_ is a number
-% \repeat unfold _n_ {}
-
-% represent a chord rather than sequential notes
-% put them in angle bracket
-% < >
-
-% cautionary accidental - put a bang after the note name 
-% bes b!
-
-% tuplets - \tuplet __how-many-notes__/__how many beats do they last__
+% \score {
+%     \transpose c f {
+%         \relative c' {
+%             \oboetwo
+%         }
+%     }
+% }
