@@ -4,6 +4,7 @@
 **/*.pdf
 **/*.mid*
 *code-workspace
+**/*tmp*
 
 # History files
 .Rhistory
