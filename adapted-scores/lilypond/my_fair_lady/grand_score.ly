@@ -7,7 +7,7 @@
     title = "My Fair Lady - Selection"
     composer = "music by Frederick Loewe"
     opus = "transcribed for orchestra by Robert Russell Bennett"
-    tagline = "typeset for Toronto Community Orchestra"
+    tagline = "compiled and typeset for the Toronto Community Orchestra"
 }
 
 \layout {
@@ -58,7 +58,6 @@ global = {
     >>
 
     \midi{ \tempo 2 = 120 }
-    
 }
 
 % to repeat a section instead of typing it over and over

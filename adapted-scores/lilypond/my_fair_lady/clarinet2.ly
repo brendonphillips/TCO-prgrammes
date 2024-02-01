@@ -24,101 +24,144 @@ clarinettwo = \compressMMRests {
     a4-> fis8-> a\staccato g\staccato fis\staccato e\staccato d\staccato d1\tenuto  g\tenuto\> r8\!\mf fis
     fis fis a^\marcato fis fis fis a^\marcato fis fis fis a^\marcato r r4 \bar "||"
     r8 a a a a a r a\marcato r a a a a\marcato r r4 r8 a a a a a r a r a a a a r r4
-    r8 fis fis fis fis fis r g r8 a a a a a r b r d\marcato b g d' b g d' r d\marcato b g cis\marcato r8 r4
-    %   c2. b4)
-    % b2~8 (b, e g b2. a4) a2. g4 (e2. f4 g2. a4) d,1~2 r8 d (f a d2. cis4) cis2~8 c,!8 (f a c2. b4)
-    % b2. a4 (f2. g4 a2.) a4 e1~2~8 r8 r4 b'1 a r8 b e gis r b, dis gis r gis, cis e e r r4
-    % b1 a2 (c) r8 b [r b] r b [r b] r4 \repeat unfold 3 {c\tenuto}
-    % c2. (b4) b2~8 e, (g b) d2. (c4) c2~8 f, (a c) e2->\f d-> f1->~8\marcato r r4 b,2\marcato
-    % R1*4 \bar "||"
-    % \key d \major \time 2/2
-    % r8\p a (b a a'\staccato) [r a\staccato] r
-    % r8 a, (b a a'\staccato) [r a\staccato] r \bar "||"
-    % \repeat unfold 4 {
-    %     r8 a, (b a a'\staccato) [r a\staccato] r
-    % } r a, (b a a'2 gis) gis (fis) g!4 (b, fis' e) r2 R1*3 r2 fis,~4 fis (gis2)
-    % r4 e (g! eis) fis4. (a8 fis4. b8 fis4. d'8 d,4) r R1*7 r2 e4\p (fis g fis') fis2~2 
-    % e4 (fis e d) d2~2 fis4 (e d2) e4 (d cis2 d4 e) d1~4 r r\< e fis1\!~(4 e) 
-    % \tuplet 3/2 {e4\tenuto (d cis)} e2 (b2~2) cis4 (d) e1~(4 d) \tuplet 3/2 {d4\tenuto (cis b)} 
-    % d1~2. d4 d1~(4 cis) \tuplet 3/2 {cis4\tenuto (b ais)} cis2 (gis2~4) gis (ais b) cis 
-    % cis cis cis cis (gis a! b) cis1~2 r2 R1*8 R1 r2 g'4\fermata (fis e d) cis2~2 fis4 (e d2) 
-    % e4 (d cis2) d4\tenuto e\tenuto \bar "||" d\tenuto r r2 R1 d4-> e-> fis-> d8.-> a16-> 
-    % b4-> d-> d2-> R1*2 \bar "||"
-    % \key g \major
-    % g,4\mp a b g8. d16 e4 (g8) r g2 g4\staccato a\staccato b\staccato g8. d16 e4 (g8) r g2
-    % r4 g\mp g (a\staccato) a (b\staccato) b (c\staccato) d2~8 [(b c gis)] b (a) a2. R1*4
-    % d8\staccato r r4 r2 R1*3 R1*6 r4 a2 a4 \tuplet 3/2 {a8 ([b a])} gis8. a16 c4~8 r R1*4
-    % r4 g g (a) a (b) b (c) d2 g,2 c2. (b4) a8 g g2. R1*3 b8\pp ([g]) g2.\fermata\> \bar "||"
-    % \time 3/4 g'4->\ff\! \repeat unfold 4 {d8\staccato} 
-    % \repeat unfold 2 {
-    %     f4 \repeat unfold 4 {d8\staccato}
-    % } f4-> d-> ees-> \bar "||" d,4\p (g e a2.) \repeat unfold 2 { d,4 (g e a2.)} b4->\f g2->~2.
-    % \repeat unfold 3 { f4 (bes g c2.)} d4->\f bes2->~2. d8->\staccato [r d8->\staccato r d8->\staccato]
-    % r R1*3/4*6 d4-> d8-> a-> d4-> d8->\staccato r r4 r R1*3/4*4 d4\sf \repeat unfold 4 {d8\staccato}
-    % f4-> \repeat unfold 4 {d8\staccato} f4-> d-> ees-> d,4\p (g e a2.) 
-    % \repeat unfold 2 {d,4 (g e a2.)} b4->\f e,2->~2. c'4-> a2->~2. R1*3/4 ees2.\mf R1*3/4 cis'2. 
-    % d4 (b g d g b) ees2.\>~4\staccato-> r\! r d2.~2.~2.~2 d4 g,4-> d'8\staccato 
-    % \repeat unfold 3 {d8\staccato} \repeat unfold 3 {
-    %     f4-> \repeat unfold 4 {d8\staccato}
-    % } f4\staccato d\staccato ees\staccato c\staccato des\staccato bes\staccato b!\staccato gis\staccato 
-    % a\staccato fis!\staccato r r
-    % \key ees \major \bar "||" R1*3/4*8 R1*3/4*8
-    % ees4\mf (ees'4. d8) d2 (c4) c,\mf (c'4.bes8) bes2 (aes4) r aes (g) r g (f) bes2. r8 ees, (ees'4. d8)
-    % d2 (c4) r8 des, (c'4. bes8) bes2 (aes4) r8 ces, (aes'4 g) g2. f ees4->_"cresc." r r ees-> r r 
-    % ees-> r ees-> \repeat unfold 3 {ees->}
-    % \time 2/2 \bar "||" ees'1->\f\startTrillSpan~4\stopTrillSpan r r2 ees1->\startTrillSpan~4\stopTrillSpan r r2
-    % r2 c'\marcato\fp a\marcato\fp g\marcato\fp ees\marcato\fp c\marcato\fp a\marcato\fp g\marcato\fp
-    % \key bes \major \bar "||"
-    % r4\mf d'8 d d4 d8 d \repeat unfold 2 {d4 d8 d d4 d8 d} d8-> bes-> g4-> f-> (g) 
-    % \repeat unfold 2 {d'4 d8 d d4 d8 d} d4 f f8-> d-> bes4-> d8-> bes-> g4-> bes8-> g-> f4-> c'2-> d4.-> 
-    % c8 b4-> (c\staccato) r2 c2-> d4.-> c8 b4-> (c\staccato) r4 r8 c \repeat unfold 4 {f4\staccato}
-    % gis,2-> a-> bes1->~2. r4 f2 g4. f8 e4 f e\< (f bes\staccato)\! r4 bes2~1 f2 g4. f8 d4 f bes c d1~1
-    % c2 d4. c8 b4-> (c\staccato) r2 c2 d4. c8 b4-> (c\staccato) r4 r8 c \repeat unfold 4 {f4\staccato} 
-    % gis,2-> a-> bes1~4 r r2 r4 g8 g g4 g8 g g4 r r2 r4 f8 f f4 f8 f f4 r r2 r4 e' r e e->\staccato
-    % r4 r2 r4 e8 e e4 ees8 ees ees4 r g,2-> r4 d'8 d ees4 d8 d cis4 d8 d cis4 d8 d f4 g8 g g4 f8 f
-    % d8 (c bes a g4 f) r4 f'8 f g4 f8 f d4 f8 f f4 f8 f f r \tuplet 3/2 {a,8 (bes c} d8) c bes a 
-    % g' f ees d c4 (b) c2 d4. c8 b4-> (c\staccato) r r8 cis d2 ees4. d8 cis4-> (d\staccato) r r8 d f4\staccato r r2
-    % \repeat unfold 4 {g4\staccato} f\staccato r r2 d4\staccato d\staccato e\staccato e\staccato f2-> f->
-    % f4-> (d) bes-> (g) bes1-> c-> r2 bes'-> a-> g-> f-> ees-> d-> c->
-    % \repeat unfold 2 {bes4 bes8 bes bes4 bes8 bes} \repeat unfold 2 {f'4 f8 f f4 f8 f} \bar "||"
-    % \time 4/4 r2 r8 ges,\p (aes bes) \repeat unfold 4 {des\tenuto} aes2\>~4 r4\! r8 
-    % ges\p (aes bes) \repeat unfold 4 {des\tenuto} ces2\> R1*5\! r2 r8 f,\p (g a 
-    % \time 4/4 \bar "||" \key f \major
-    % c\tenuto) [c\tenuto c\tenuto c\tenuto] g2~4 r4 r8 f ([g a] c\tenuto) c\tenuto c\tenuto c\tenuto bes2~4 r r8
-    % a (bes c) e e e e d4. b8 (d) [d d d] c4. cis8 (d4.) b8 (c4.) a8 (bes) r r fis (g) r r4 R1*3 
-    % r2 r8 a ([bes c] d) d (e d e) d (c b c) c (d c d2) bes!8 bes (c bes c) bes (a g a) a (bes a bes) r r4
-    % R1*5 r2 r4 c'4\pp~1\>\fermata \bar "||"
-    % \time 2/2 \key c \major
-    % r4\! g->\ff r2 r4 e\f r e r f r f r e r e8 e e4 r r2 r4 g r g r a r a r g e c g r r2 R1*3 r2 r4 a8\p b
-    % c8 b c4 r b a r d4. (c8 b) ais b4 r a g r e'4.-> (d8 c4\staccato) a\staccato g\staccato a\staccato
-    % e-> r d-> r c-> g''\staccato\mf g\staccato g\staccato g8\staccato g\staccato g4\staccato g\staccato g\staccato 
-    % g\staccato f\staccato f\staccato f\staccato f8\staccato f\staccato f4\staccato f\staccato f\staccato f\staccato
-    % e\staccato e\staccato e\staccato e8\staccato e\staccato e4\staccato e\staccato e\staccato g\staccato f\staccato 
-    % f\staccato f\staccato f8\staccato f\staccato f4\staccato f\staccato f\staccato e\staccato r g, r 
-    % c r r2 \bar "||"
-    % \key ees \major
-    % r4 ees\mf\staccato r ees\staccato r ees\staccato r d\staccato r ees\staccato r ees\staccato r ees\staccato 
-    % ees\staccato f\staccato r ees\staccato r ees\staccato r ees\staccato r d\staccato r ees\staccato r ees\staccato 
-    % r ees\staccato f\staccato g\staccato r ees\staccato r ees\staccato r e\staccato r e\staccato r ees!\staccato 
-    % r\< ees\staccato f\staccato-> r\! r c8\p d ees d ees4 d d c r f4.-> (ees8 d) cis d4 r c bes r g'4.-> (f8 
-    % ees4\staccato) c\staccato bes\staccato c\staccato g r f r ees r r2 r g'4.->\f fis8 g f! f4 r2 r f4.-> e8 f 
-    % ees! ees4 r2 r g4.-> fis8 g f! f4 r f f f ees f ees r r2 r2 g4.-> fis8 g f! f4 r2 r2 f4.-> f8 f ees! ees4 r2
-    % r2 ees4.-> f8 g4\staccato ees\staccato g\staccato ees\staccato f2-> f-> \bar "||"
-    % \time 2/4 R1*2/4*10 R1*2/4*5
-    % r8 g,\marcato [bes\marcato d\marcato] g2\marcato~8 [aes,\marcato c\marcato ees\marcato] g2-> f-> aes8-> r r4 
-    % ees4\fermata\ff f\fermata \bar "||"
-    % \time 2/2 
-    % r4\mp \tuplet 3/2 {bes8 ([g ees]} \tuplet 3/2 {g [ees c]} \tuplet 3/2 {ees [c bes]})
-    % \tuplet 3/2 {c ([bes g]} \tuplet 3/2 {bes [g ees]} \tuplet 3/2 {g [bes d]} \tuplet 3/2 {c [f aes]}
-    % g) r \tuplet 3/2 {f ([c aes]} \tuplet 3/2 {ees' [bes g]} \tuplet 3/2 {c [aes f]} \tuplet 3/2 {bes [g ees]}
-    % \tuplet 3/2 {aes [f c]} \tuplet 3/2 {g' [ees c]} aes'4) \tuplet 3/2 {bes'8 ([g ees]} \tuplet 3/2 {g [ees d]}
-    % \tuplet 3/2 {ees [d bes]} \tuplet 3/2 {d [bes g]} \tuplet 3/2 {d' [c a]} \tuplet 3/2 {d [c a]} 
-    % \tuplet 3/2 {d [c a]} \tuplet 3/2 {ees' [c a]} \tuplet 3/2 {g' [d c]} d) r \tuplet 3/2 {g, ([bes cis]} 
-    % \tuplet 3/2 {bes [cis e]} \tuplet 3/2 {g [d c!]} \tuplet 3/2 {d [bes aes]}) r2 \mark \default
-    % \tuplet 3/2 {f8_ \markup {cresc.} ([aes c]} \tuplet 3/2 {aes [c ees]} \tuplet 3/2 {c [ees g]}
-    % \tuplet 3/2 {ees [g aes]} \tuplet 3/2 {c [aes ees]} c4) aes'\fermata (g) f (ees) ees2~2 g4->_"rit." f-> ees2->
-    % f4-> ees-> d2-> ees4-> f-> 
-    % \time 4/4 ees2.->\ff e4-> f2-> bes-> g8\marcato ees,4.->~2\< ees'8\marcato\! r r4 r2 \bar "|."
+    r8 fis fis fis fis fis r g r8 a a a a a r b r d\marcato b g d'\marcato b g d'\marcato r d\marcato b g 
+    cis\marcato r8 r4 \repeat unfold 2 {r8 b b b b b r b r b b b b r r4} r8 g g g g g r a r b b b b b r b
+    r fis'\marcato e cis fis\marcato e cis fis\marcato r d\marcato a cis b\marcato r r4 ais2~8 ais, (cis fis) 
+    fis2 (eis) cis cis (fis~8) r r4 cis'2. cis,4 d2 f2 g1~8 r b4\tenuto a\tenuto g\tenuto r8 a a a a a a a
+    r a a a a r r4 r8 b b b b b b b r b b b b r r4 d2->\f b-> d1->~8\marcato r r4 a2^\marcato a,1^\marcato\fp
+    c^\marcato\fp b^\marcato\fp_"poco rit." a2 (dis) \bar "||"
+    \key e \major \time 2/2 
+    R1 r2 a2\p (b4 e e2~2) dis4 (cis) b (gis gis2~2) gis4\tenuto a\tenuto e' (gis) gis gis e2 e4 (fis) 
+    dis2 e4 (cis dis2) a4 (b) cis (cis') cis2~2 a gis1~2 e'4 (dis cis2) dis4 (cis b cis2 b4) gis2. (fis4~4 e) r2
+    R1*8 R1*4 r4 gis4\p (ais2) a! (e4 dis) r8 b (e fis, gis [a] \tuplet 3/2 {b8 cis dis} \tuplet 3/2 {e8\< fis gis}
+    a16 [b cis dis] e4\!) r r8 gis (fis dis bis dis bis gis dis4 fis dis) r r8 a''8 (fis e cis e cis a fis a fis e
+    cis2) r8 fis' (dis c a c fis, e c2) g' 
+    <<
+        {r8 e (gis! b8~8) gis (b4~8) gis8 (b4~8) gis (b4)}
+        \new Staff \with {
+            \key e \major
+            \remove "Time_signature_engraver"
+            alignAboveContext = #"main"
+            fontSize = #-3
+            \override StaffSymbol #'staff-space = #(magstep -3)
+            \override StaffSymbol #'thickness = #(magstep -3)
+            firstClef = ##f
+        } { 
+            r4 gis dis4. dis8 (d4.) d8 (cis2\tenuto)
+        }
+    >>
+    g'2 (gis g) e cis cis cis4 (e dis cis) dis2 dis dis (cis4 e) r e' r dis r cis r2 r8 e, (gis cis gis e gis cis)
+    r8 e, (gis cis b dis, fis a) r8 gis (cis e b gis cis e) cis (gis b4) r2 r8 e, (gis dis' b e, gis dis' ais e g 
+    cis ais e gis ais cis dis, gis b a! cis, e fis gis dis fis4) r2 r8 a (cis gis' e a, cis gis' e a, cis e c2\fermata)
+    fis,4 (e) e2~2 r2 r4 gis (fis e)_"poco rit." a2 a4\tenuto a\tenuto
+    <<
+        {b4\tenuto r r2 R1}
+        \new Staff \with {
+            \key e \major
+            \remove "Time_signature_engraver"
+            alignAboveContext = #"main"
+            fontSize = #-3
+            \override StaffSymbol #'staff-space = #(magstep -3)
+            \override StaffSymbol #'thickness = #(magstep -3)
+            firstClef = ##f
+        } { 
+            e,4 fis gis e8. b16 cis4 e e2
+        }
+    >>
+    R1*4 \bar "||"
+    \key a \major
+    cis'4\staccato d\staccato e\staccato cis8. a16 a4 (d8) r d4~8 r cis4\staccato d\staccato e\staccato cis8. a16
+    a4 (dis8) r d2 r4 cis,\staccato\mp cis (d) d (e\staccato) ais (a) a2 (g fis) f4 (e8) r R1*4 cis'8\staccato r
+    cis,4 cis (d\staccato) d (e\staccato) e (b\staccato) cis2 (e4 fis) d8 cis cis2~8 r r8. cis16
+    \tuplet 3/2 {e8 [gis b]} d [r16 d,] \tuplet 3/2 {eis8 gis b} fis'8 r eis [r16 fis] fis8 r r4 r8. b,16 
+    \tuplet 3/2 {gis8 [b cis]} d [r16 fis,] \tuplet 3/2 {gis8 bis d} \tuplet 3/2 {cis8 [e cis]}
+    \repeat unfold 2 {\tuplet 3/2 {gis8 [gis gis]}} gis r r8. e16 \tuplet 3/2 {fis8 [a cis]} dis [r16 dis,] 
+    \tuplet 3/2 {fis8 gis bis} cis8 [r16 cis] bis8 [r16 bis] b8 [r16 b] ais8 r r4 fis2 (gis4) d2 (d4~8) r
+    a4 (b cis a8. e16 fis4 a) a2  a4 (b cis a8. e16 fis4 b) b2 r4 cis cis (d) d (e) e (d) r8 e (a cis gis4 fis)
+    r8 d (fis a gis2) r2 fis4_"morendo" (e) R1 r2 fis4 (e) a (gis a b) cis1\>\fermata \bar "||"
+    \time 3/4
+    e4->\!\ff \repeat unfold 4 {cis8\staccato} d4-> \repeat unfold 4 {cis8\staccato} d4-> 
+    \repeat unfold 4 {cis8\staccato} d4-> b-> bis-> e,4\p (a fis b2.) \repeat unfold 2 {e,4 (a fis b2.)} 
+    cis4->\f a2->~2. g4\p (c a d2.) \repeat unfold 2 {g,4 (c a d2.)} e4->\f c2->~c2. gis8->\staccato r r4 r
+    R1*3/4*6 e4-> e8-> b-> e4-> gis8\staccato-> r r4 r R1*3/4*2 dis2. (e4 dis c) b'\staccato->\sf b8\staccato\f
+    \repeat unfold 3 {b8\staccato} d4-> \repeat unfold 4 {b8\staccato} d4-> b-> bis-> e,4\p (a fis b2.) 
+    \repeat unfold 2 {e,4 (a fis b2.)} cis4->\f fis,2->~2. d'4-> b2->~2. R1*3/4 a,2. R1*3/4 f'2. cis'2.~2. c2.\<
+    (ees4\staccato\marcato)\! r r e2.~2.~2.~2 e4 a,-> \repeat unfold 4 {cis8\staccato}
+    \repeat unfold 3 {d4-> \repeat unfold 4 {cis8\staccato}} d4\staccato cis\staccato c\staccato b!\staccato
+    bes\staccato a\staccato gis!\staccato g\staccato fis\staccato f\staccato (c\mf d \bar "||"
+    \key f \major
+    g2 a4\tenuto~4) c, (d g2 a4\tenuto~4) c, (d f2.\tenuto) e\tenuto e\tenuto d4\tenuto c (d g2 a4~4) c, (d g
+    a\tenuto) a\tenuto a (fis g c2.~4 bes\tenuto) bes\tenuto bes2. (a2.) R1*3/4*7 r8 f (cis'4. c8) c2 (bes4)
+    r8 ees,8 (bes'4. a8) a2 (g4) r8 des (ges4 f) d!2. e2. f4 b,8 (c e f a4->) e8 (f gis a c4->) gis8 (a b c
+    e f gis a b c)
+    \time 2/2
+    r2 c,\marcato a\marcato f\marcato d\marcato c\marcato a\marcato c\marcato b\marcato f''\marcato\fp 
+    d\marcato\fp b\marcato\fp g\marcato\fp f\marcato\fp d\marcato\fp b\marcato\fp \bar "||"
+    \key c \major
+    r4 c'8 c c4 c8 c \repeat unfold 2 {c4 c8 c c4 c8 c} e8-> c-> a4-> g-> (a) r4 c8 c c4 c8 c c4 c8 c c4 d8 d
+    c4 e g8-> e-> c4-> e8-> c-> a4-> c8-> a-> g4-> \repeat unfold 2 {r4 f' f, f' f, f' f,8 f f4} R1*2
+    r2 g8 (e c e g a c d e b d c) e,2 e4. e8 e4 e e2\<~4\staccato\! r g2~1 e2 e4. e8 e4 e g g c1~1 
+    \repeat unfold 2 {r4 f f, f' f, f' f,8 f f4} R1*2 r4 c'8 (d e c g e c4)
+    <<
+        {
+            r4 r2 r4 c'8 c c4 c8 c c4 r r2 r4 c,8 c c4 c8 c c4 r r2 r4 a' r a a\staccato-> r r2 r4 c8 
+            c c4 d8 d d4 r f,2->
+        }
+        \new Staff \with {
+            \key e \major
+            \remove "Time_signature_engraver"
+            alignAboveContext = #"main"
+            fontSize = #-3
+            \override StaffSymbol #'staff-space = #(magstep -3)
+            \override StaffSymbol #'thickness = #(magstep -3)
+            firstClef = ##f
+        } { 
+            c'4 (b c) a2 (c~4) c (b c) g1~4 c4 (b c) a2 d d4\staccato r8 c b4 a d1~4 r f,2
+        }
+    >>
+    r4 c'8 c c4 c8 c b4 c8 c b4 c8 c g4 e'8 e e4 a8 a e (d c b a4 g) r4 g8 g a4 g8 g c4 g8 g g4 c8 c g r
+    \tuplet 3/2 {b8 (c d} e) d c b a g f e d4 (cis) c!1 c c c b4 r r2 \repeat unfold 4 {f'4\staccato} e'4\staccato
+    r r2 \repeat unfold 4 {c4\staccato} e2-> e-> e4-> (c) a-> (fis) a1-> b-> r2 g'-> fis-> f-> e-> aes-> fis-> f->
+    c4 c8 c c4 c8 c c4 c8 c c4 c8 c g'4 g8 g g4 g8 g g4 g8 g g4 g8 g
+    \time 4/4 
+    R1*4 r8 aes,\p (bes c) aes'2~ \tuplet 3/2 {4 g (e!} \tuplet 3/2 {des bes g)} \tuplet 3/2 {aes4 (bes c} c2~
+    \tuplet 3/2 {4_"dim.") bes (a} \tuplet 3/2 {fis ees c} b2.) r4 r2 r8 g\p (a b \bar "||"
+    \key g \major \time 4/4 
+    e\tenuto) \repeat unfold 3 {e\tenuto} d2~4 r r8 g,8 (a b e\tenuto) \repeat unfold 3 {e\tenuto} fis2~4 r4 r8
+    b,8 (c d) r4 g r g r g r g r g r f e8 r r4 c2 g' fis~4 b, b2 c2. c4~4 b2 b4 a2 (ais b d) a! (d) a (gis8)
+    r8 r4 g!2 (a4.) r8 d2~4.\> r8\! c2\pp a\> b2.\! r4 R1 r2 g''2\>~1\fermata \bar "||"
+    \key d \major \time 2/2
+    r4\! g\staccato\ff r2 r4 d\f r d r e r e r a, r a8 a a4 r r2 r4 d r d r d r d r d a fis d d (e fis g2)
+    g2 a4 (b g a b2) b2 cis4\marcato\sf r r2 R1*3 r2 fis,2->~4 \repeat unfold 3 {d\staccato} a4-> r a-> r a'->
+    fis'\staccato\mf fis\staccato fis\staccato fis8\staccato fis\staccato  \repeat unfold 3 {fis4\staccato}
+    fis\staccato \repeat unfold 3 {e\staccato} e8\staccato e\staccato \repeat unfold 3 {e4\staccato}
+    e\staccato \repeat unfold 3 {d\staccato} d8\staccato d\staccato \repeat unfold 3 {d4\staccato} fis\staccato 
+    \repeat unfold 3 {e\staccato} e8\staccato e\staccato \repeat unfold 3 {e4\staccato} d\staccato r a r fis r r2
+    \bar "||" \key f \major
+    r4 f\staccato\mf r f\staccato r f\staccato r e\staccato  r4 f\staccato r f\staccato r f\staccato f\staccato 
+    g\staccato r4 f\staccato r f\staccato r f\staccato r e\staccato  r4 f\staccato r f\staccato r f\staccato 
+    f\staccato g\staccato r4 f\staccato r f\staccato r4 fis\staccato r fis\staccato r4 f!\staccato r f\staccato
+    b\staccato-> r r bes8\p c d cis d4 r c bes r b2-> (c8) b c4 r gis a r cis2\mf (d4\staccato) gis,\staccato
+    a\staccato g\staccato f r e r c' a_"marc."\f a a a8 a a4 a a bes bes bes bes bes8 bes bes4 bes bes a a 
+    a a a8 a a4 a a bes bes bes bes bes8 bes bes4 bes bes a r r2 R1 bes4 bes bes bes bes8 bes bes4 bes bes 
+    a a a a a8 a a4 a a \repeat unfold 4 {f\staccato} f'2-> e-> \bar"||"
+    \time 2/4 
+    R1*2/4*6 r4 c4\mf\trill (a\trill \pitchedTrill fis\startTrillSpan gis 
+    e\stopTrillSpan\pitchedTrill\startTrillSpan fis c\stopTrillSpan\trill a8\trill) r r4
+    R1*2/4*2 r4 f''\trill (d\trill \pitchedTrill b\startTrillSpan cis gis\trill \pitchedTrill f\startTrillSpan 
+    g d8\stopTrillSpan\staccato) r r4 R1*2/4*2 f'2-> f2-> f8->\staccato r r4 d\fermata\ff e\fermata \bar "||"
+    \time 2/2 
+    r4\mp \tuplet 3/2 {d8 ([c a]} \tuplet 3/2 {c [a f]} \tuplet 3/2 {a [f d]})
+    \tuplet 3/2 {f ([d c]} \tuplet 3/2 {d [c a]} \tuplet 3/2 {e' [c e]} \tuplet 3/2 {d [g bes]}
+    \tuplet 3/2 {a [c f]} d) r \tuplet 3/2 {f, ([a c]} \tuplet 3/2 {d, [g bes]} \tuplet 3/2 {c, [f a]} bes,) r
+    \tuplet 3/2 {c ([a f]} \tuplet 3/2 {g [bes e]} \tuplet 3/2 {f8 [a c]} \tuplet 3/2 {a [c e]}
+    \tuplet 3/2 {c [a f]} \tuplet 3/2 {a [f c]} \tuplet 3/2 {d [e gis]} b) r \tuplet 3/2 {a ([b c]}
+    \tuplet 3/2 {b [d f]} \tuplet 3/2 {d [bes! g]} \tuplet 3/2 {bes [g e]} \tuplet 3/2 {dis [fis a]} fis) r
+    \tuplet 3/2 {bes ([g e]} \tuplet 3/2 {g [e c]} \tuplet 3/2 {g' [d bes]} \tuplet 3/2 {fis' [ees c]}
+    \tuplet 3/2 {bes [d f]} \tuplet 3/2 {d [f a]} \tuplet 3/2 {f [a bes]} \tuplet 3/2 {a [bes d]}
+    \tuplet 3/2 {f [d bes]} f4) f'4\fermata~4 e (d c) e (d c) c'-> c->_"rit." d,2-> e4-> d-> d2-> d4-> e->
+    \time 4/4 
+    c2.->\ff c4-> f2-> e-> f8\fermata f,4.\<~2 c'8\marcato\! r r4 r2 \bar "|."
 }
 
 \score {
