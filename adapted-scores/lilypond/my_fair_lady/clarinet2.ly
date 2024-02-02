@@ -36,41 +36,41 @@ clarinettwo = \compressMMRests {
     R1*8 R1*4 r4 gis4\p (ais2) a! (e4 dis) r8 b (e fis, gis [a] \tuplet 3/2 {b8 cis dis} \tuplet 3/2 {e8\< fis gis}
     a16 [b cis dis] e4\!) r r8 gis (fis dis bis dis bis gis dis4 fis dis) r r8 a''8 (fis e cis e cis a fis a fis e
     cis2) r8 fis' (dis c a c fis, e c2) g' 
-    <<
+    % <<
         {r8 e (gis! b8~8) gis (b4~8) gis8 (b4~8) gis (b4)}
-        \new Staff \with {
-            \key e \major
-            \remove "Time_signature_engraver"
-            alignAboveContext = #"main"
-            fontSize = #-3
-            \override StaffSymbol #'staff-space = #(magstep -3)
-            \override StaffSymbol #'thickness = #(magstep -3)
-            firstClef = ##f
-        } { 
-            r4 gis dis4. dis8 (d4.) d8 (cis2\tenuto)
-        }
-    >>
+    %     \new Staff \with {
+    %         \key e \major
+    %         \remove "Time_signature_engraver"
+    %         alignAboveContext = #"main"
+    %         fontSize = #-3
+    %         \override StaffSymbol #'staff-space = #(magstep -3)
+    %         \override StaffSymbol #'thickness = #(magstep -3)
+    %         firstClef = ##f
+    %     } { 
+    %         r4 gis dis4. dis8 (d4.) d8 (cis2\tenuto)
+    %     }
+    % >>
     g'2 (gis g) e cis cis cis4 (e dis cis) dis2 dis dis (cis4 e) r e' r dis r cis r2 r8 e, (gis cis gis e gis cis)
     r8 e, (gis cis b dis, fis a) r8 gis (cis e b gis cis e) cis (gis b4) r2 r8 e, (gis dis' b e, gis dis' ais e g 
     cis ais e gis ais cis dis, gis b a! cis, e fis gis dis fis4) r2 r8 a (cis gis' e a, cis gis' e a, cis e c2\fermata)
     fis,4 (e) e2~2 r2 r4 gis (fis e)_"poco rit." a2 a4\tenuto a\tenuto
-    <<
+    % <<
         {b4\tenuto r r2 R1}
-        \new Staff \with {
-            \key e \major
-            \remove "Time_signature_engraver"
-            alignAboveContext = #"main"
-            fontSize = #-3
-            \override StaffSymbol #'staff-space = #(magstep -3)
-            \override StaffSymbol #'thickness = #(magstep -3)
-            firstClef = ##f
-        } { 
-            e,4 fis gis e8. b16 cis4 e e2
-        }
-    >>
+    %     \new Staff \with {
+    %         \key e \major
+    %         \remove "Time_signature_engraver"
+    %         alignAboveContext = #"main"
+    %         fontSize = #-3
+    %         \override StaffSymbol #'staff-space = #(magstep -3)
+    %         \override StaffSymbol #'thickness = #(magstep -3)
+    %         firstClef = ##f
+    %     } { 
+    %         e,4 fis gis e8. b16 cis4 e e2
+    %     }
+    % >>
     R1*4 \bar "||"
     \key a \major
-    cis'4\staccato d\staccato e\staccato cis8. a16 a4 (d8) r d4~8 r cis4\staccato d\staccato e\staccato cis8. a16
+    cis,4\staccato d\staccato e\staccato cis8. a16 a4 (d8) r d4~8 r cis4\staccato d\staccato e\staccato cis8. a16
     a4 (dis8) r d2 r4 cis,\staccato\mp cis (d) d (e\staccato) ais (a) a2 (g fis) f4 (e8) r R1*4 cis'8\staccato r
     cis,4 cis (d\staccato) d (e\staccato) e (b\staccato) cis2 (e4 fis) d8 cis cis2~8 r r8. cis16
     \tuplet 3/2 {e8 [gis b]} d [r16 d,] \tuplet 3/2 {eis8 gis b} fis'8 r eis [r16 fis] fis8 r r4 r8. b,16 
@@ -102,23 +102,23 @@ clarinettwo = \compressMMRests {
     c4 e g8-> e-> c4-> e8-> c-> a4-> c8-> a-> g4-> \repeat unfold 2 {r4 f' f, f' f, f' f,8 f f4} R1*2
     r2 g8 (e c e g a c d e b d c) e,2 e4. e8 e4 e e2\<~4\staccato\! r g2~1 e2 e4. e8 e4 e g g c1~1 
     \repeat unfold 2 {r4 f f, f' f, f' f,8 f f4} R1*2 r4 c'8 (d e c g e c4)
-    <<
+    % <<
         {
             r4 r2 r4 c'8 c c4 c8 c c4 r r2 r4 c,8 c c4 c8 c c4 r r2 r4 a' r a a\staccato-> r r2 r4 c8 
             c c4 d8 d d4 r f,2->
         }
-        \new Staff \with {
-            \key e \major
-            \remove "Time_signature_engraver"
-            alignAboveContext = #"main"
-            fontSize = #-3
-            \override StaffSymbol #'staff-space = #(magstep -3)
-            \override StaffSymbol #'thickness = #(magstep -3)
-            firstClef = ##f
-        } { 
-            c'4 (b c) a2 (c~4) c (b c) g1~4 c4 (b c) a2 d d4\staccato r8 c b4 a d1~4 r f,2
-        }
-    >>
+    %     \new Staff \with {
+    %         \key e \major
+    %         \remove "Time_signature_engraver"
+    %         alignAboveContext = #"main"
+    %         fontSize = #-3
+    %         \override StaffSymbol #'staff-space = #(magstep -3)
+    %         \override StaffSymbol #'thickness = #(magstep -3)
+    %         firstClef = ##f
+    %     } { 
+    %         c'4 (b c) a2 (c~4) c (b c) g1~4 c4 (b c) a2 d d4\staccato r8 c b4 a d1~4 r f,2
+    %     }
+    % >>
     r4 c'8 c c4 c8 c b4 c8 c b4 c8 c g4 e'8 e e4 a8 a e (d c b a4 g) r4 g8 g a4 g8 g c4 g8 g g4 c8 c g r
     \tuplet 3/2 {b8 (c d} e) d c b a g f e d4 (cis) c!1 c c c b4 r r2 \repeat unfold 4 {f'4\staccato} e'4\staccato
     r r2 \repeat unfold 4 {c4\staccato} e2-> e-> e4-> (c) a-> (fis) a1-> b-> r2 g'-> fis-> f-> e-> aes-> fis-> f->
