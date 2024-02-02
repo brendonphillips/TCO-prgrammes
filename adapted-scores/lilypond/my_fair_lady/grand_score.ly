@@ -2,6 +2,7 @@
 \include "oboe2.ly"
 \include "oboe1.ly"
 \include "clarinet2.ly"
+\include "clarinet1.ly"
 
 \header {
     title = "My Fair Lady - Selection"
@@ -43,6 +44,16 @@ global = {
                         \oboetwo
                     }
                 }
+            }
+
+            \new Staff = "clarinetone" \with {
+                instrumentName = \markup { Kl. 1 (B\flat) }
+                midiInstrument = "clarinet"
+            } {
+                \relative c'' { 
+                    \transposition bes
+                    \clarinetone 
+                } 
             }
 
             \new Staff = "clarinettwo" \with {
