@@ -1,18 +1,18 @@
-\version "2.22.0"
+% \version "2.22.0"
 
-\header {
-    title = "My Fair Lady - Selection"
-    composer = "music by Frederick Loewe"
-    opus = "transcribed for orchestra by Robert Russell Bennett"
-    tagline = ""
-}
+% \header {
+%     title = "My Fair Lady - Selection"
+%     composer = "music by Frederick Loewe"
+%     opus = "transcribed for orchestra by Robert Russell Bennett"
+%     tagline = ""
+% }
 
-\layout {
-    \context {
-        \Score
-        markFormatter = #format-mark-circle-barnumbers
-    }
-}
+% \layout {
+%     \context {
+%         \Score
+%         markFormatter = #format-mark-circle-barnumbers
+%     }
+% }
 
 clarinetone = \compressMMRests {
     \override MultiMeasureRest.expand-limit = #2
@@ -75,7 +75,7 @@ clarinetone = \compressMMRests {
     \key f \major
     g2 a4\tenuto~4) c, (d g2 a4\tenuto~4) c, (d f2.\tenuto) e\tenuto e\tenuto d4\tenuto c (d g2 a4~4) c, (d g
     a\tenuto) a\tenuto a (fis g c2.~4 bes\tenuto) bes\tenuto bes2. (a2.) R1*3/4*7 r8 f (f'4. e8) e2 (d4)
-    r8 ees,8 (d'4. c8) c2 (bes4) r8 des, (bes'4 a) a2. b2. f4_"cresc." b,8 (c e f a4->) e8 (f gis a c4->) gis8 (a b c
+    r8 ees,8 (d'4. c8) c2 (bes4) r8 des, (bes'4 a) a2. bes2. f4_"cresc." b,8 (c e f a4->) e8 (f gis a c4->) gis8 (a b c
     e f gis a b c)
     \time 2/2
     R1*4 r2 d2\marcato\fp b\marcato\fp a\marcato\fp f\marcato\fp d\marcato\fp b\marcato\fp a\marcato\fp \bar "||"
@@ -95,7 +95,7 @@ clarinetone = \compressMMRests {
     c,4 c8 c c4 c8 c c4 c8 c c4 c8 c g'4 g8 g g4 g8 g g4 g8 g g4 g8 g \bar "||"
     \time 4/4 
     R1*4 r8 c,\p (des c) c'2(~ \tuplet 3/2 {4 bes g} \tuplet 3/2 {e! des bes)} \tuplet 3/2 {c4 (des ees} ees2~
-    \tuplet 3/2 {4_"dim.") d! (c} \tuplet 3/2 {a fis ees} b2.) r4 r2 r8 g'\p (a b \bar "||"
+    \tuplet 3/2 {4_"dim.") d! (c} \tuplet 3/2 {a fis ees} d2.) r4 r2 r8 g'\p (a b \bar "||"
     \key g \major \time 4/4 
     a\tenuto) \repeat unfold 3 {a\tenuto} fis2~4 r r8 g8 (a b a\tenuto) \repeat unfold 3 {a\tenuto} a2~4 r4 r8
     g8 (a b) r4 c r ais r b r b r c r gis g!8 r r4 fis2 b a~4 d, d2 g2 (fis4) d4~4 d2 d4 e4 fis8 (e fis e4.)
@@ -110,34 +110,35 @@ clarinetone = \compressMMRests {
     a8\staccato a\staccato \repeat unfold 3 {a4\staccato}
     \repeat unfold 4 {a\staccato} a8\staccato a\staccato \repeat unfold 3 {a4\staccato} a\staccato r a, r d, r r2
     \bar "||" \key f \major
-    % r4 f\staccato\mf r f\staccato r f\staccato r e\staccato  r4 f\staccato r f\staccato r f\staccato f\staccato 
-    % g\staccato r4 f\staccato r f\staccato r f\staccato r e\staccato  r4 f\staccato r f\staccato r f\staccato 
-    % f\staccato g\staccato r4 f\staccato r f\staccato r4 fis\staccato r fis\staccato r4 f!\staccato r f\staccato
-    % b\staccato-> r r bes8\p c d cis d4 r c bes r b2-> (c8) b c4 r gis a r cis2\mf (d4\staccato) gis,\staccato
-    % a\staccato g\staccato f r e r c' a_"marc."\f a a a8 a a4 a a bes bes bes bes bes8 bes bes4 bes bes a a 
-    % a a a8 a a4 a a bes bes bes bes bes8 bes bes4 bes bes a r r2 R1 bes4 bes bes bes bes8 bes bes4 bes bes 
-    % a a a a a8 a a4 a a \repeat unfold 4 {f\staccato} f'2-> e-> \bar"||"
-    % \time 2/4 
-    % R1*2/4*6 r4 c4\mf\trill (a\trill \pitchedTrill fis\startTrillSpan gis 
-    % e\stopTrillSpan\pitchedTrill\startTrillSpan fis c\stopTrillSpan\trill a8\trill) r r4
-    % R1*2/4*2 r4 f''\trill (d\trill \pitchedTrill b\startTrillSpan cis gis\trill \pitchedTrill f\startTrillSpan 
-    % g d8\stopTrillSpan\staccato) r r4 R1*2/4*2 f'2-> f2-> f8->\staccato r r4 d\fermata\ff e\fermata \bar "||"
-    % \time 2/2 
-    % r4\mp \tuplet 3/2 {d8 ([c a]} \tuplet 3/2 {c [a f]} \tuplet 3/2 {a [f d]})
-    % \tuplet 3/2 {f ([d c]} \tuplet 3/2 {d [c a]} \tuplet 3/2 {e' [c e]} \tuplet 3/2 {d [g bes]}
-    % \tuplet 3/2 {a [c f]} d) r \tuplet 3/2 {f, ([a c]} \tuplet 3/2 {d, [g bes]} \tuplet 3/2 {c, [f a]} bes,) r
-    % \tuplet 3/2 {c ([a f]} \tuplet 3/2 {g [bes e]} \tuplet 3/2 {f8 [a c]} \tuplet 3/2 {a [c e]}
-    % \tuplet 3/2 {c [a f]} \tuplet 3/2 {a [f c]} \tuplet 3/2 {d [e gis]} b) r \tuplet 3/2 {a ([b c]}
-    % \tuplet 3/2 {b [d f]} \tuplet 3/2 {d [bes! g]} \tuplet 3/2 {bes [g e]} \tuplet 3/2 {dis [fis a]} fis) r
-    % \tuplet 3/2 {bes ([g e]} \tuplet 3/2 {g [e c]} \tuplet 3/2 {g' [d bes]} \tuplet 3/2 {fis' [ees c]}
-    % \tuplet 3/2 {bes [d f]} \tuplet 3/2 {d [f a]} \tuplet 3/2 {f [a bes]} \tuplet 3/2 {a [bes d]}
-    % \tuplet 3/2 {f [d bes]} f4) f'4\fermata~4 e (d c) e (d c) c'-> c->_"rit." d,2-> e4-> d-> d2-> d4-> e->
-    % \time 4/4 
-    % c2.->\ff c4-> f2-> e-> f8\fermata f,4.\<~2 c'8\marcato\! r r4 r2 \bar "|."
+    r4 a'\staccato\mf r a\staccato r bes\staccato r bes\staccato  r4 a\staccato r a\staccato r a\staccato 
+    bes\staccato c\staccato r4 a\staccato r a\staccato r a\staccato r bes\staccato r4 a\staccato r a\staccato r 
+    a\staccato bes\staccato c\staccato r4 bes\staccato r bes\staccato r4 c\staccato r a\staccato r4 bes\staccato r 
+    bes\staccato
+    f'\staccato-> r r d8\p e f e f4 r e d r g4.-> (f8 e) dis8\staccato e4 r d c r a'4.->\mf (g8 f4\staccato) 
+    f\staccato f\staccato f\staccato
+    c r bes r a c_"marc."\f c c \repeat unfold 3 {c8 c c4 c c c c c c} c8 c c4 c c c r r2 R1
+    \repeat unfold 2 {c4 c c c c8 c c4 c c4} \repeat unfold 4 {f4\staccato} bes2-> bes \bar"||"
+    \time 2/4 
+    R1*2/4*6 r4 fis\mf\trill (e\trill c\trill a\trill fis\trill\> e8\staccato) r\! r4
+    R1*2/4*2 r4 b''\trill (gis\trill f!\trill d\trill b\trill gis8\stopTrillSpan\staccato) 
+    r r4 R1*2/4*2 d''2-> d2-> d8->\staccato r r4 bes\fermata\ff bes\fermata \bar "||"
+    \time 2/2 
+    r4\mp \tuplet 3/2 {a8 ([f d]} \tuplet 3/2 {f [d c]} \tuplet 3/2 {d [c a]}
+    \tuplet 3/2 {c [a f]} \tuplet 3/2 {a [f d]} \tuplet 3/2 {c [e a]} \tuplet 3/2 {g [bes d]} 
+    \tuplet 3/2 {c [f a]} g) r \tuplet 3/2 {a, ([c f]} \tuplet 3/2 {g, [bes d]} \tuplet 3/2 {f, [a c]} d,) r
+    \tuplet 3/2 {f ([c a]} \tuplet 3/2 {bes [e g]} \tuplet 3/2 {a8 [c f]} \tuplet 3/2 {c [e a]}
+    \tuplet 3/2 {e [c a]} \tuplet 3/2 {c [a f]} \tuplet 3/2 {e [gis bes]} d) r 
+    \tuplet 3/2 {bes ([d e]} \tuplet 3/2 {d [f aes]}
+     \tuplet 3/2 {e [d bes]} \tuplet 3/2 {d [bes g]} \tuplet 3/2 {fis [a c]} a) r
+    \tuplet 3/2 {e' ([d bes]} \tuplet 3/2 {c [bes g]} \tuplet 3/2 {bes [g d]} \tuplet 3/2 {c' [a fis]}
+    \tuplet 3/2 {f! [g bes]} \tuplet 3/2 {a [bes d]} \tuplet 3/2 {bes [d f]} \tuplet 3/2 {d [f a]}
+    \tuplet 3/2 {bes [f d]} bes4) des'4\fermata~4 a2 a4 a~2 a4-> a->_"rit." a2-> a4-> a-> bes2-> bes4-> bes->
+    \time 4/4 
+    a2.->\ff a4-> b2-> bes-> c8-> f,,4.\<^\marcato~2 a'8\marcato\! r r4 r2 \bar "|."
 }
 
-\score {
-    \relative c'' {
-        \clarinetone
-    }
-}
+% \score {
+%     \relative c'' {
+%         \clarinetone
+%     }
+% }
