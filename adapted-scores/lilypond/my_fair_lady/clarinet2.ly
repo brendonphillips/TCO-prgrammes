@@ -1,18 +1,18 @@
-\version "2.22.0"
+% \version "2.22.0"
 
-\header {
-    title = "My Fair Lady - Selection"
-    composer = "music by Frederick Loewe"
-    opus = "transcribed for orchestra by Robert Russell Bennett"
-    tagline = ""
-}
+% \header {
+%     title = "My Fair Lady - Selection"
+%     composer = "music by Frederick Loewe"
+%     opus = "transcribed for orchestra by Robert Russell Bennett"
+%     tagline = ""
+% }
 
-\layout {
-    \context {
-        \Score
-        markFormatter = #format-mark-circle-barnumbers
-    }
-}
+% \layout {
+%     \context {
+%         \Score
+%         markFormatter = #format-mark-circle-barnumbers
+%     }
+% }
 
 clarinettwo = \compressMMRests {
     \override MultiMeasureRest.expand-limit = #2
@@ -161,13 +161,11 @@ clarinettwo = \compressMMRests {
     \tuplet 3/2 {bes [d f]} \tuplet 3/2 {d [f a]} \tuplet 3/2 {f [a bes]} \tuplet 3/2 {a [bes d]}
     \tuplet 3/2 {f [d bes]} f4) f'4\fermata~4 e (d c) e (d c) c'-> c->_"rit." d,2-> e4-> d-> d2-> d4-> e->
     \time 4/4 
-    c2.->\ff c4-> f2-> e-> f8\fermata f,4.\<~2 c'8\marcato\! r r4 r2 \bar "|."
+    c2.->\ff c4-> f2-> e-> f8^\marcato f,4.\<^\marcato~2 c'8\marcato\! r r4 r2 \bar "|."
 }
 
-\score {
-    % \transpose c f {
-        \relative c'' {
-            \clarinettwo
-        }
-    % }
-}
+% \score {
+%     \relative c'' {
+%         \clarinettwo
+%     }
+% }
