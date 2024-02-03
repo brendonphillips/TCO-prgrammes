@@ -95,7 +95,7 @@ clarinetone = \compressMMRests {
     c,4 c8 c c4 c8 c c4 c8 c c4 c8 c g'4 g8 g g4 g8 g g4 g8 g g4 g8 g \bar "||"
     \time 4/4 
     R1*4 r8 c,\p (des c) c'2(~ \tuplet 3/2 {4 bes g} \tuplet 3/2 {e! des bes)} \tuplet 3/2 {c4 (des ees} ees2~
-    \tuplet 3/2 {4_"dim.") d! (c} \tuplet 3/2 {a fis ees} d2.) r4 r2 r8 g'\p (a b \bar "||"
+    \tuplet 3/2 {4_"dim.") d! (c} \tuplet 3/2 {a fis ees} d2.) r4 r2 r8 g\p (a b \bar "||"
     \key g \major \time 4/4 
     a\tenuto) \repeat unfold 3 {a\tenuto} fis2~4 r r8 g8 (a b a\tenuto) \repeat unfold 3 {a\tenuto} a2~4 r4 r8
     g8 (a b) r4 c r ais r b r b r c r gis g!8 r r4 fis2 b a~4 d, d2 g2 (fis4) d4~4 d2 d4 e4 fis8 (e fis e4.)
