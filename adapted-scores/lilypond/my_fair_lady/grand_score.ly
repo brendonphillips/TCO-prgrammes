@@ -3,6 +3,7 @@
 \include "oboe1.ly"
 \include "clarinet2.ly"
 \include "clarinet1.ly"
+\include "bassoon1.ly"
 
 \header {
     title = "My Fair Lady - Selection"
@@ -65,10 +66,20 @@ global = {
                     \clarinettwo 
                 } 
             }
+
+             \new Staff = "bassoonone" \with {
+                instrumentName = "Fg. 1"
+                midiInstrument = "bassoon"
+            } {
+                \relative c {
+                    \bassoonone 
+                } 
+            }
         >>
     >>
 
     \midi{ \tempo 2 = 120 }
+
 }
 
 % to repeat a section instead of typing it over and over
