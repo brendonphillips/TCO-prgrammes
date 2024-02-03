@@ -1,9 +1,7 @@
 \version "2.22.0"
-\include "oboe2.ly"
-\include "oboe1.ly"
-\include "clarinet2.ly"
-\include "clarinet1.ly"
-\include "bassoon1.ly"
+\include "oboes.ly"
+\include "clarinets.ly"
+\include "bassoons.ly"
 
 \header {
     title = "My Fair Lady - Selection"
