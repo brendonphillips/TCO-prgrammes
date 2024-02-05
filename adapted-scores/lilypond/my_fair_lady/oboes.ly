@@ -42,7 +42,7 @@ oboeone =  \compressMMRests {
     e4 (d cis2) d4\tenuto e\tenuto \bar "||" d\tenuto r r2 R1 d4-> e-> fis-> d8.-> a16-> 
     b4-> d-> d2-> R1*2 \bar "||"
     \key g \major
-    g,4\mp a b g8. d16 e4 (g8) r g2 g4\staccato a\staccato b\staccato g8. d16 e4 (g8) r g2
+    g,4\mp a b g8. d16 e4 (g8) r g2 g4\staccato a\staccato b\staccato g8. d16 e4 (a8) r a2
     r4 g\mp g (a\staccato) a (b\staccato) b (c\staccato) d2~8 [(b c gis)] b (a) a2. R1*4
     d8\staccato r r4 r2 R1*3 R1*6 r4 a2 a4 \tuplet 3/2 {a8 ([b a])} gis8. a16 c4~8 r R1*4
     r4 g g (a) a (b) b (c) d2 g,2 c2. (b4) a8 g g2. R1*3 b8\pp ([g]) g2.\fermata\> \bar "||"
