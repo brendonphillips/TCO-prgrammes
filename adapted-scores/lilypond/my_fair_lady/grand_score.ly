@@ -65,7 +65,7 @@ global = {
                 } 
             }
 
-             \new Staff = "bassoonone" \with {
+            \new Staff = "bassoonone" \with {
                 instrumentName = "Fg. 1"
                 midiInstrument = "bassoon"
             } {
@@ -73,10 +73,19 @@ global = {
                     \bassoonone 
                 } 
             }
+
+            \new Staff = "bassoontwo" \with {
+                instrumentName = "Fg. 2"
+                midiInstrument = "bassoon"
+            } {
+                \relative c {
+                    \bassoontwo 
+                } 
+            }
         >>
     >>
 
-    \midi{ \tempo 2 = 120 }
+    % \midi{ \tempo 2 = 120 }
 
 }
 
