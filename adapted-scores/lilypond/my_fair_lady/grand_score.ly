@@ -2,6 +2,7 @@
 \include "oboes.ly"
 \include "clarinets.ly"
 \include "bassoons.ly"
+\include "flutes.ly"
 
 \header {
     title = "My Fair Lady - Selection"
@@ -27,6 +28,14 @@ global = {
 \score {
     \new GrandStaff <<
         \new StaffGroup <<
+
+            \new Staff = "fluteone" \with {
+                instrumentName = "Fl. 1"
+                midiInstrument = "flute"
+            } { 
+                \relative c'' { \fluteone } 
+            }
+
             \new Staff = "oboeone" \with {
                 instrumentName = "Hb. 1"
                 midiInstrument = "oboe"
