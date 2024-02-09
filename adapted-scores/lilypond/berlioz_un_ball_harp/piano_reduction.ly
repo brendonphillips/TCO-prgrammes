@@ -1,5 +1,7 @@
 \version "2.22.0"
 
+#(set-default-paper-size "letter")
+
 \header {
     title = "Un Bal - Symphonie Fantastique"
     composer = "Hector Berlioz"
@@ -22,7 +24,7 @@ global = {
     \override TupletBracket.bracket-visibility = #'if-no-beam
 }
 
-lower = % \compressMMRests { 
+lower = \compressMMRests { 
   \relative c {
         \global
         \clef bass
@@ -167,9 +169,9 @@ lower = % \compressMMRests {
         \clef treble a' a' r e, e' r \repeat unfold 4 {<a, cis e a>4 r8 <b d e gis>4 r8} <a cis e a>8 r r R1*3/8*3
         \clef bass <fis, fis'>8 r r <e gis e'> r r <a cis e>4 <e b' e>8 <a cis e>4 r8 \bar "|."
     }
-  % }
+  }
 
-upper =  % \compressMMRests { 
+upper =  \compressMMRests { 
   \relative c {
     \global
     \clef treble
@@ -362,7 +364,7 @@ upper =  % \compressMMRests {
     \ottava #0
     \bar "|."
 }
-% } 
+} 
 
 \score {
   \new PianoStaff \with { instrumentName = "Harp" }
